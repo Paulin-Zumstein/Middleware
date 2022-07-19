@@ -1,0 +1,11 @@
+1/
+
+context Department inv self.departmentBudget > 0
+
+
+
+2/
+
+context Employee.increaseTheSalary(amount: float)
+pre: amount > 0
+post: self.income = self.income@pre + amount and ouput = self.income
