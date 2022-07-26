@@ -1,0 +1,10 @@
+For homework you have:
+
+• identify problems
+Take a look on first_class_diagram_corrected.png and on second_class_diagram_corrected.png
+
+• propose solutions / modification of schemes
+Take a look on first_class_diagram_corrected.png and on second_class_diagram_corrected.png
+
+• merge
+Take a look on merged_class_diagram.png
