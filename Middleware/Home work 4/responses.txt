@@ -1,0 +1,5 @@
+After creating the different brokers as well as the producer and consumer. I was able to send a first message from the producer to the consumer ("test"). It worked well. Then I killed a broker (number 4) and tried again to send a message ("test2") to the consumer with the producer and it worked again. And finally I killed a new broker (number3) and tried again but this time the message "test3" was not received by the consumer.
+
+The reason for this is that I set the replication factor of my topic to 3 and so there must be at least 3 brokers for this to work.
+
+So if we change the replication factor we have to make sure that the number of brokers is bigger or equal.
